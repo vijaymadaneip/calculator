@@ -1,3 +1,6 @@
+
+/* my custom css file for calculator*/
+
 body {
     background-color: #000;
     display: flex;
@@ -98,12 +101,12 @@ body {
     }
 
     .calculator input {
-        font-size: 1.8rem;
+        font-size: 24px;
         padding: 12px;
     }
 
     .btn-custom {
-        font-size: 1.4rem;
+        font-size: 22px;
         padding: 12px 0;
     }
 }
