@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Modern Calculator</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="calcy.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="display" value="0" disabled>
+
+      <div class="container">
+        <div class="row g-2">
+
+          <!-- Top Row: Clear, Delete, +/- , Division -->
+          <div class="col-3"><button class="btn btn-clear btn-custom w-100">C</button></div>
+          <div class="col-3"><button class="btn btn-special btn-custom w-100">Del</button></div>
+          <div class="col-3"><button class="btn btn-special btn-custom w-100">+/-</button></div>
+          <div class="col-3"><button class="btn btn-operator btn-custom w-100">/</button></div>
+
+          <!-- Numbers & Operators -->
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">7</button></div>
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">8</button></div>
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">9</button></div>
+          <div class="col-3"><button class="btn btn-operator btn-custom w-100">*</button></div>
+
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">4</button></div>
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">5</button></div>
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">6</button></div>
+          <div class="col-3"><button class="btn btn-operator btn-custom w-100">-</button></div>
+
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">1</button></div>
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">2</button></div>
+          <div class="col-3"><button class="btn btn-number btn-custom w-100">3</button></div>
+          <div class="col-3"><button class="btn btn-operator btn-custom w-100">+</button></div>
+
+          <div class="col-6"><button class="btn btn-number btn-custom w-100">0</button></div>
+          <div class="col-3"><button class="btn btn-special btn-custom w-100">.</button></div>
+          <div class="col-3"><button class="btn btn-equals btn-custom w-100">=</button></div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="calcy.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
